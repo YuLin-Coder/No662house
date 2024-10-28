@@ -1,0 +1,72 @@
+* {padding:0;margin:0;}
+body {background:#eee; font-family:"ËÎÌו", Helvetica, sans-serif; font-size:14px; color:#666; line-height:100%}
+a {border:0;color:#0000FF;}
+a:hover {color:#f60; text-decoration:underline}
+img { display:block}
+ul,li,dl,dd,dt,ol { list-style:none}
+.clearfix:after{content: "\20";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix{display: inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.clear{ clear:both; font-size:0; height:0; line-height:0; overflow:hidden}
+
+.wrapper { width:960px; padding: 0 10px 10px 10px; margin:0 auto; background: #fff}
+.header a { display:block; height:100px; text-indent:-999em; background: url(../top.gif) 0 50% no-repeat;}
+.nav { height:35px; background:url(../nv.gif); padding:0 0 0 10px; margin:10px 0 0 0}
+.nav li { line-height:15px; margin:10px 0 0 0; float:left; width:100px; text-align:center; border-right:1px solid #fff}
+.nav li a { color:#fff; font-weight:bolder}
+.nav li a:hover { color:#fff}
+.searchbar { padding:5px 10px; line-height:20px;background:#fff; border:1px solid #ccc; border-top:none}
+.today,.loginstat { float:left; display:inline}
+.loginstat a{ padding:0 5px}
+.search { float:right; display:inline}
+table { border:1px solid #ccc; margin:10px 0 0 0; line-height:20px}
+table th {  border-bottom:1px solid #ccc;color:#000; background: #1B9FCF;padding: 3px 5px}
+table td { border-bottom:1px solid #ccc; background: #FFF; padding: 3px 5px}
+.footer { color:#fff;padding:20px; text-align:center; margin:10px 0 0 0; background:#fff; color: #000; line-height:20px}
+.regbtn { display:inline-block; height:30px; width:120px; line-height:30px; text-align:center; background:#f60; color:#fff}
+.regbtn:hover { color:#fff}
+.th_btn { text-align:left}
+.th_btn a.btn_on { display:inline-block; padding:0 10px; line-height:26px; background:#f60; color:#fff}
+.th_btn a.btn_on:hover { color:#fff}
+.peger { text-align:center; padding:10px 0; line-height:20px}
+.table2 { border:1px solid #ccc}
+.table2 th {border-bottom:1px solid #ccc; background:#ddd}
+.table2 td { padding:10px}
+.invitebtn { height:30px; width:100px; display:block; background:#f60; line-height:30px; text-align:center; margin:0 auto; color:#fff}
+.invitebtn:hover { color:#fff}
+
+
+#login { background:#55B6E3}
+.loginloop{ background:url(../login.gif) no-repeat; padding:10px 10px 10px 10px; height:auto; width:541px; height: 405px; margin:100px auto 0 auto}
+#adminleft { background:#1B9FCF	}
+#admin_left { background:#1B9FCF	}
+
+.adminheader { background:#005582; height:82px; border-bottom:3px solid #1B9FCF}
+.logo { font-size:14px; line-height:80px; color:#fff}
+.logo a{ color:#000; font-weight: bold; text-decoration: none; font-size:40px; padding:0 0 0 20px; color: #fff}
+.adminloops { padding:10px}
+.leftnav { padding:0 10px 10px 10px}
+.leftnav p{ height:25px; background:#09c; margin:10px 0 0 0; cursor:pointer; line-height:25px; padding:0 0 0 10px; font-weight:bolder; color:#FFF; background:#005582}
+.leftnav div { margin:0 0 10px 0;}
+.leftnav div a { display:block; line-height:30px; padding:0 0 0 20px; border-bottom:1px solid #1B9FCF; color:#FFF}
+.leftnav div a:hover { color:#fff}
+.admin_nav { padding:0 10px 10px 10px}
+.admin_nav p{ height:25px; background:#09c; margin:10px 0 0 0; cursor:pointer; line-height:25px; padding:0 0 0 10px; font-weight:bolder; color:#FFF; background:#005582}
+.admin_nav div { margin:0 0 10px 0;}
+.admin_nav div a { display:block; line-height:30px; padding:0 0 0 20px; border-bottom:1px solid #1B9FCF; color:#FFF}
+.admin_nav div a:hover { color:#fff}
+.ileft { float:left; width:720px; overflow:hidden}
+.iright { float:right; width:230px; overflow:hidden}
+.position,.resume { margin:10px 0 0 0; border:2px solid #EAE9C3; background: #fff; padding:0 0 5px 0}
+.pos_tit,.res_tit,.title { height:30px; line-height:30px; padding:0 10px; background: #61ACFF; font-weight:bolder;}
+.position table,.resume table { margin:5px 5px 0 5px}
+.art_box { float:left; width:355px; border:1px solid #ccc; height:175px; margin:10px 0 0 0}
+.art_box ul { padding:10px;}
+.art_box li { line-height:24px; border-bottom:1px dashed #ddd; padding:0 0 0 13px}
+.art_box li a { color:#000}
+.login { border:1px solid #ccc; margin:10px 0 0 0; padding:0 0 10px 0}
+.ltit { height:24px; line-height:24px; text-align:center; background:#f60; color:#000; font-weight:bolder}
+.ltb { border:0}
+.ltb td { border:0; padding:3px 5px}
+

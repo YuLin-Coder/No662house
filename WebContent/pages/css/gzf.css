@@ -1,0 +1,68 @@
+ .bodydiv
+ {   
+    
+  width:900px;
+    margin:0 auto;
+ 
+ }
+.myTab
+{    
+	 width:100%;
+	 border:0px; 
+	 background-color: #D1DDAA;
+     text-align: left;
+	 
+}
+
+.myTab tr
+{    
+	  background-color:#FAFAF1; 
+	 
+}
+.myTab td
+{    
+	 
+	  height:25; 
+	  
+	 
+} 
+/*------------头部-----------------*/
+ .myTRHead
+ {   background-color:#E7E7E7; 
+ }
+ .myTDHead
+ {
+       
+	 height:24;
+     background-color:#E7E7E7; 
+	 text-align: center;
+	 color: #000000;
+     font-weight: bold;border:0px; 
+ }
+ /*------------头部-----------------*/
+ 
+  /*------------控件----------------*/
+ .txtcss
+ {
+    FONT-SIZE: 14px;
+}
+ 
+ .Dropcss
+ {
+     	FONT-SIZE: 14px;
+	HEIGHT: 25px;
+ }
+ /*---- .btn
+{
+   color:#FFF;
+  background-color:#5AB75C;
+  border-style:none;
+  Height:25px; 
+  width: 100px;
+
+  font-size:20;
+  font-weight: bold;
+}
+ 
+ 
+  /*------------控件-----------------*/

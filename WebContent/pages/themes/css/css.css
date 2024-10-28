@@ -1,0 +1,118 @@
+@charset "gb2312";
+* {padding:0;margin:0;}
+body {font-family:Arial,"ËÎÌו", Helvetica, sans-serif; font-size:14px}
+a {text-decoration:none;color:#000}
+a:hover {color:#f60}
+ul,li,dl,dd,dt,ol { list-style:none}
+.link { color:#458FCE; font-size:14px;}
+.link:hover { color:#458FCE; text-decoration:underline}
+.clearfix:after{content: "\20";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix{display: inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.clear{ clear:both; font-size:0; height:0; line-height:0; overflow:hidden}
+
+table { border:1px solid #ddd; border-bottom:0}
+td { padding:8px 3px; border-bottom:1px solid #ddd}
+th { padding:8px 3px; border-bottom:1px solid #ddd; background:#eee;}
+textarea{ padding:5px}
+.input_text { padding:2px 5px}
+
+.wrapper { width:960px; margin:0 auto; background:#fff}
+.header{ height:311px; position:relative}
+.header .logo a{ display:block; width:960px; height:311px; text-indent:-999em;}
+.nav { height:35px; line-height:35px; border:1px solid #004c23; background:#1E874E; margin:3px 0 0 0}
+.nav li { float:left; line-height:35px; width:80px;}
+.nav li a { color:#fff;font-size:14px;font-weight:bolder;  text-align:center; display:block; height:35px}
+.nav li a:hover { background:#004C23}
+
+
+.img-desc cite {
+ background: #ffffff;
+ filter:alpha(opacity=80);
+ color: #000000;
+ font-style:normal;
+ text-align:center;
+ font-size: 14px;
+ font-family:"ËÎÌו";
+ position: relative;
+ bottom: 50px;
+ left: 16;
+ width: 26px;
+ height: 20px;
+ padding:4px;
+ border-top: 0px solid #999;
+}
+
+.outer1 {
+margin:1 auto;
+width:70px;
+}
+.outer1 a {
+margin:0px;
+padding:6px;
+display:block;
+position: relative;
+border:1px solid #cccccc;
+background:#ffffff;
+}
+.outer1 a:hover {border::1px solid ffffff;background:#ef456c;}
+.outer1 img {display:block;background:#EE9309;}
+
+
+.slideBox{ width:358px; height:230px; overflow:hidden; position:relative; border:1px solid #000; float:left; display:inline; margin:10px 0 0 10px }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#f60; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:358px; height:230px; display:block; border:0 }
+
+.big_box { float:left; width:568px; border:1px solid #ccc; overflow:hidden; margin:10px 0 0 10px; display:inline; height:230px; overflow:hidden}
+.big_title { height:30px; background:#ACCEF7; line-height:30px; font-size:14px; padding:0 0 0 10px; font-weight:bolder; border-bottom:1px solid #ccc}
+.big_list a { font-size:14px}
+.big_list { padding:10px;}
+.big_list p{ color:#999; padding:3px 0}
+
+.box { float:left; width:305px; border:1px solid #ccc; overflow:hidden; margin:10px 0 0 10px; display:inline; height:230px; overflow:hidden}
+.title { height:30px; background:#59B431; line-height:30px; font-size:14px; padding:0 0 0 10px; font-weight:bolder; border-bottom:1px solid #ccc}
+.list a { font-size:14px}
+.list { padding:10px;}
+.list li { line-height:30px; height:28px; overflow:hidden; border-bottom:1px dashed #ddd}
+.list li a{float:left; width:210px; overflow:hidden; height:28px;}
+.list li em { float:right; color:#999}
+.list p{ color:#999; padding:3px 0}
+.footer { border-top:1px solid #008000; padding:20px; text-align:center; margin:20px 0 0 0}
+
+.left{ float:left; width:252px; overflow:hidden}
+.right { float:left; width:700px; overflow:hidden}
+.art_list2 { padding:20px;}
+.art_list2  li { line-height:35px; border-bottom:1px dashed #ccc; font-size:14px}
+.art_list2  li em { float:right; font-size:14px; color:#666}
+		
+.location { line-height:30px; padding:0 10px; background:#EBF4FB; border-bottom:1px solid #9BA4A9; margin:10px 0 0 0}
+
+
+.page { text-align:center; margin:20px 0 0 0; border-top:1px solid #ddd; line-height:30px; padding:10px 0 30px 0}
+.page span { border:1px solid #ddd; background:#f0f0f0; padding:3px 5px}
+.page a { border:1px solid #f60; background:#fc0; padding:3px 5px; color:#f00}
+
+.art_title { line-height:30px; padding:20px; text-align:center; font-size:25px; color:#f50; font-weight:bolder}
+.art_content { border:1px solid #ddd; padding:20px}
+.art_photo { width:500px; margin:0 auto 20px auto; border:1px solid #ccc; padding:2px}
+.art_download { width:150px; background:#008000; height:40px; text-align:center; line-height:40px; margin:0 auto 20px auto; font-weight:bolder}
+.art_download a { color:#fff}
+.art_info { padding:0 0 20px 0; color:#999; text-align:center}
+
+.page_search { position:absolute; top:90px; left:350px; color:#000}
+
+.login_bar { height:30px; background:#1E874E; padding:0 10px 0 10px; border:1px solid #004C23; color:#fff; line-height:30px; left:0;font-weight:bolder}
+.login_bar a { padding:0 10px; color:#ff0}
+.search_list { border:1px solid #ccc; padding:30px}
+.search_list li { padding:10px; border-bottom:1px dashed #ddd;}
+.sear_title  a{ color:#0000cc; text-decoration:underline; font-size:14px;}
+.sear_link { padding:5px 0 0 0;}
+.sear_link a { color:#008000;}
+.sear_link span { color:#999}
+a.logina { padding:3px 10px; background:#f60; color:#fff}

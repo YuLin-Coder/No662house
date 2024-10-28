@@ -1,0 +1,97 @@
+*{ margin: 0; padding: 0}
+body { font-family: "ÀŒÃÂ"; line-height: 1; font-size: 14px; color: #000; background: #fff}
+.clearfix:after { content: "\20"; display: block; height: 0; clear: both; visibility: hidden}
+.clearfix { display: inline-block; }
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+.clear { clear:both; font-size:0; height:0; line-height:0; overflow:hidden}
+a{ color: #09c; text-decoration: none;}
+a:hover { color: #000; text-decoration: underline;}
+img { border: 0}
+ul,li { list-style: none}
+
+
+#adminleft { background: #71A4C1}
+/*ÁÆ°ÁêÜÂêéÂè∞*/
+.l_tab td { padding: 10px}
+.admin_logo { float: left; width: 280px; margin: 20px 0 0 0; background: url(../images/admin_logo.gif) no-repeat; height: 80px}
+.admin_form { float: left; color: #fff; width: 300px; border-left: 1px solid #fff; padding: 0 0 0 20px }
+.admin_login { width:601px; margin: 200px auto}
+
+.leftnav { line-height: 25px; padding: 5px 10px 10px 10px; cursor: pointer;}
+.leftnav p { border: 1px solid #1D3647; margin: 5px 0 0 0; background: #1D3647; color: #fff; padding: 0 10px; font-weight: bolder;}
+.leftnav div { display:none ; margin: 0 0 5px 0; padding: 0 0 0 30px; background: #245373}
+.leftnav div a { color: #fff; display: block; font-weight: bold;}
+
+.main-wrap { padding: 20px; background: #fff}
+.main-table { font-size: 14px}
+.main-table td,.main-table th { padding: 5px}
+
+.main-table-list { border:1px solid #bbe1f1; border-bottom: 0; border-right: 0;}
+.main-table-list td { border-bottom: 1px solid #bbe1f1; border-right: 1px solid #bbe1f1; padding: 10px}
+.main-table-list th { border-bottom: 1px solid #bbe1f1; background: #eefaff; border-right: 1px solid #bbe1f1; padding: 10px}
+
+.peger { line-height: 30px; text-align: center}
+.wrapper { width: 1024px; margin: 0 auto; background: #fff}
+.daohang1 { height: 40px; line-height: 40px; background: #09c;color: #fff; padding: 0 0 0 30px; font-size: 14px }
+.daohang { height: 40px; line-height: 40px; background: #09c}
+.daohang p { float: left;}
+.daohang p a { float: left; color: #fff; font-weight: bolder; padding: 0 0 0 30px; font-size: 14px}
+.daohang p a:hover { color: #fff}
+.footer { width: 1024px; text-align: center; background: #ccc; padding: 30px 0; margin: 0 auto;}
+
+
+.slide { width: 300px;  overflow: hidden; float: left; display: inline; margin: 10px 0 0 10px}
+.big-list { float: left; padding: 10px 0 0 10px; width: 400px; overflow:hidden;}
+.big-list div { height: 30px; line-height:30px; font-weight: bolder; background: #f80; color: #fff;padding: 0 0 0 10px;}
+.big-list ul { line-height:25px; padding: 10px 0 0 0;}
+.big-list div a { color: #fff}
+.left { float: left; width: 720px; overflow: hidden;}
+.right { float: right; width: 220px; overflow:hidden;}
+
+.list { float: left; width: 350px;margin: 10px 0 0 10px; display: inline;}
+.list div { line-height: 30px; background: #09c; font-weight: bolder; padding: 0 0 0 10px; }
+.list div a { color: #fff}
+.list ul { line-height: 25px; padding: 10px 0 0 0}
+
+.login{ border: 1px solid #ccc; margin: 10px 10px 0 0;}
+.login div { line-height: 30px; background: green; padding: 0 0 0 10px; color: #fff}
+.login table { line-height: 20px;}
+.login table td { padding: 5px;}
+.user-nav { padding: 10px; line-height: 20px}
+
+.location { line-height: 30px; padding: 0 0 0 10px; border-bottom: 1px solid #ddd}
+.view-title { line-height: 30px; font-size: 20px; text-align: center; padding: 10px 0 0 0}
+.view-info { line-height: 30px; text-align: center; color: #999; border-bottom: 1px solid #ddd}
+.view-cont { padding: 30px; line-height: 25px; font-size: 14px}
+.view-images { text-align: center; padding: 20px 0 0 0; width: 960px; overflow: hidden;}
+#CuPlayer { padding: 20px 0 0 0; text-align: center;}
+.music-wrap { text-align: center; padding: 20px 0 0 0}
+.game-link { width: 150px; background: #09c; text-align: center; margin: 20px auto; height: 50px; line-height: 50px}
+.game-link a { color: #fff}
+
+.bbs-column { padding: 20px; line-height: 30px}
+.bbs-column li { border:1px  solid #96c2f1; background: #eff7ff; margin: 0 0 20px 0; padding:20px;}
+.bbs-column li a.name { font-size: 20px; font-weight: bolder;}
+.bbs-column li img { float: left; margin: 0 10px 0 0}
+.bbs-column li .bleft { float:left;}
+.bbs-column li .bright {float: right;}
+
+.bbs-posts { padding: 20px;}
+.bbs-posts li { border-bottom: 1px solid #ddd; line-height: 40px;}
+.bbs-posts li em { float: right; color: #999; font-style: normal;}
+
+.posts-send { margin: 20px 0 0 20px; width: 150px; line-height: 40px; height: 40px; background: #f80; text-align: center;}
+.posts-send a { color: #fff; display: block; width: 150px;}
+
+.posts-form { padding: 20px; line-height: 30px}
+.posts-form-tit { line-height: 30px; background: #09c; padding: 0 0 0 10px; color: #fff}
+
+.posts-table { margin: 0 20px 20px 20px; line-height: 20px; border-top:1px solid #96c2f1; border-left:1px solid #96c2f1;}
+.posts-table th {border-right:1px solid #96c2f1; border-bottom:1px solid #96c2f1; background: #eff7ff;padding: 10px; font-weight: normal;}
+.posts-table td { padding: 10px;border-right:1px solid #96c2f1; border-bottom:1px solid #96c2f1;}
+.post-t { line-height: 40px; font-weight: bolder; margin: 20px 20px 0 20px; background: #eff7ff; border: 1px solid #96c2f1; border-bottom: 0; font-size: 22px; padding: 0 0 0 10px}
+
+.q-user-nav { line-height: 30px; border-bottom: 1px solid #ddd; padding: 0 10px}
+
+.user-center-title { font-size: 20px; font-weight: bolder; line-height: 30px; margin: 20px 0 10px 0; background: #f6f6f6; border-bottom: 1px solid #ddd; padding: 0 10px}
